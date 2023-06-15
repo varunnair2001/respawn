@@ -1,0 +1,1540 @@
+.mediaViewInfo {
+    --web-view-name: Homepage – E;
+    --web-view-id: Homepage__E;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Homepage__E;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #f6039f;
+}
+
+.btncontainer {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.btn {
+    margin-top: calc(50% + 25px);
+    top: -160px;
+    position: relative;
+    display: inline-block;
+    width: 277px;
+    height: 70px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    letter-spacing: 0.045em;
+    overflow: hidden;
+}
+
+.btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn svg rect {
+    /* stroke: #EC0033; */
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.btn span {
+    background: rgb(255, 130, 130);
+    background: -moz-linear-gradient( left, rgba(255, 130, 130, 1) 0%, rgba(225, 120, 237, 1) 100%);
+    background: -webkit-linear-gradient( left, rgba(255, 130, 130, 1) 0%, rgba(225, 120, 237, 1) 100%);
+    background: linear-gradient( to right, rgba(255, 130, 130, 1) 0%, rgba(225, 120, 237, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #f0edee;
+}
+
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+}
+
+.Homepage__E_Class {
+    position: absolute;
+    width: 1920px;
+    height: 3265px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    --web-view-name: Homepage – E;
+    --web-view-id: Homepage__E;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+.Footer_Class {
+    position: absolute;
+    width: 1920px;
+    height: 726px;
+    left: 0px;
+    top: 2540px;
+    overflow: visible;
+}
+
+.Footer_b_Class {
+    fill: rgba(12, 12, 13, 1);
+}
+
+.Footer_b {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 1938px;
+    height: 744px;
+    left: 0px;
+    top: 0px;
+}
+
+.Developed_By_Tech_Club_Class {
+    left: 810px;
+    top: 216px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Contact_Us_Class {
+    left: 891px;
+    top: 429px;
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Legal_Class {
+    left: 1476.5px;
+    top: 429px;
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+    left: 217px;
+    top: 491px;
+    position: absolute;
+    overflow: visible;
+    width: 354px;
+    height: 59px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Address_Class {
+    left: 344px;
+    top: 429px;
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Location_Icon_Class {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 205px;
+    top: 491px;
+    overflow: visible;
+}
+
+.Path_1022_Class {
+    fill: transparent;
+}
+
+.Path_1022 {
+    overflow: visible;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_1023_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1023 {
+    overflow: visible;
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    left: 5px;
+    top: 2px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Copyright_Icon_Class {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    left: 863px;
+    top: 659px;
+    overflow: visible;
+}
+
+.Ellipse_80_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_80 {
+    position: absolute;
+    overflow: visible;
+    width: 14px;
+    height: 14px;
+    left: 0px;
+    top: 1px;
+}
+
+.C_Class {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 9px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 11px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Copyright_Tech_Club_2020_Class {
+    left: 880px;
+    top: 657px;
+    position: absolute;
+    overflow: visible;
+    width: 179px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Linkedin_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.805px;
+    left: 1030px;
+    top: 273px;
+    overflow: visible;
+}
+
+.Ellipse_71_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_71 {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.805px;
+    left: 0px;
+    top: 0px;
+}
+
+.linkedin_Class {
+    position: absolute;
+    width: 19.31px;
+    height: 18.257px;
+    left: 25.747px;
+    top: 26.551px;
+    overflow: visible;
+}
+
+.Path_213_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_213 {
+    overflow: visible;
+    position: absolute;
+    width: 12.48px;
+    height: 13.217px;
+    left: 6.83px;
+    top: 5.043px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_214_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_214 {
+    overflow: visible;
+    position: absolute;
+    width: 4.004px;
+    height: 12.893px;
+    left: 0.319px;
+    top: 5.365px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_215_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_215 {
+    overflow: visible;
+    position: absolute;
+    width: 4.638px;
+    height: 4.66px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Insta_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.805px;
+    left: 925px;
+    top: 273px;
+    overflow: visible;
+}
+
+.Ellipse_69_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_69 {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.805px;
+    left: 0px;
+    top: 0px;
+}
+
+.Subtraction_9_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Subtraction_9 {
+    overflow: visible;
+    position: absolute;
+    width: 19.311px;
+    height: 19.314px;
+    left: 25.746px;
+    top: 25.746px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Facebook_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.921px;
+    left: 820px;
+    top: 273px;
+    overflow: visible;
+}
+
+.facebook_Class {
+    position: absolute;
+    width: 19.342px;
+    height: 20.095px;
+    left: 24.868px;
+    top: 25.336px;
+    overflow: visible;
+}
+
+.Group_57_Class {
+    position: absolute;
+    width: 19.342px;
+    height: 20.095px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Rectangle_1458_Class {
+    fill: transparent;
+}
+
+.Rectangle_1458 {
+    position: absolute;
+    overflow: visible;
+    width: 19.342px;
+    height: 19.342px;
+    left: 0px;
+    top: 0.453px;
+}
+
+.Path_1_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 10.494px;
+    height: 20.094px;
+    left: 4.87px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.facebook_ct_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.921px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Ellipse_43_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_43 {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.922px;
+    left: 0px;
+    top: 0px;
+}
+
+.ID9987733926_Class {
+    left: 924px;
+    top: 485px;
+    position: absolute;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Phone_Icon_Class {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 890px;
+    top: 485px;
+    overflow: visible;
+}
+
+.Path_1020_Class {
+    fill: transparent;
+}
+
+.Path_1020 {
+    overflow: visible;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_1021_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1021 {
+    overflow: visible;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.techclubnmimsgmailcom_Class {
+    left: 853px;
+    top: 520px;
+    position: absolute;
+    overflow: visible;
+    width: 255px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Mail_Icon_Class {
+    fill: rgba(152, 150, 150, 1);
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Mail_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 31.18px;
+    height: 23.635px;
+    left: 813px;
+    top: 521.473px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Privacy_Policy_Class {
+    left: 1449px;
+    top: 485px;
+    position: absolute;
+    overflow: visible;
+    width: 121px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Terms__Conditions_Class {
+    left: 1414px;
+    top: 520px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.High_Quality_Tech_Club_Logo_20_Class {
+    position: absolute;
+    width: 163px;
+    height: 150px;
+    left: 879px;
+    top: 50px;
+    overflow: visible;
+}
+
+.High_Quality_Tech_Club_Logo_20_Class_Glow {
+    position: absolute;
+    width: 163px;
+    height: 150px;
+    left: 879px;
+    top: 50px;
+    overflow: visible;
+    filter: blur(50px);
+}
+
+.Leaderboard_Background_c_Class {
+    fill: url(#Leaderboard_Background_c);
+}
+
+.Leaderboard_Background_c {
+    position: absolute;
+    overflow: visible;
+    width: 1919px;
+    height: 584px;
+    left: 0px;
+    top: 2703px;
+}
+
+.Leaderboard_Tint_Class {
+    opacity: 0.24;
+    fill: rgba(8, 2, 23, 1);
+}
+
+.Leaderboard_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1919px;
+    height: 584px;
+    left: 1px;
+    top: 2703px;
+}
+
+.Third_Position_Class {
+    position: absolute;
+    width: 1208.861px;
+    height: 103.174px;
+    left: 356.069px;
+    top: 3133px;
+    overflow: visible;
+}
+
+.Bronze_Class {
+    fill: rgba(205, 127, 50, 1);
+    stroke: rgba(8, 2, 23, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Bronze {
+    overflow: visible;
+    position: absolute;
+    width: 1196.861px;
+    height: 90px;
+    left: 12px;
+    top: 13.174px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Container_da_Class {
+    fill: url(#Container_da);
+    stroke: rgba(8, 2, 23, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Container_da {
+    overflow: visible;
+    position: absolute;
+    width: 1196.67px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Dan_Hawkins_-_96_pts_Class {
+    left: 233.931px;
+    top: 25.91px;
+    position: absolute;
+    overflow: visible;
+    width: 686px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ID3_Class {
+    left: 121.931px;
+    top: 28px;
+    position: absolute;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Second_Position_Class {
+    position: absolute;
+    width: 1208.581px;
+    height: 104px;
+    left: 356.069px;
+    top: 2980px;
+    overflow: visible;
+}
+
+.Silver_Class {
+    fill: rgba(210, 210, 210, 1);
+    stroke: rgba(8, 2, 23, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Silver {
+    overflow: visible;
+    position: absolute;
+    width: 1196.581px;
+    height: 90px;
+    left: 12px;
+    top: 14px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Container_dg_Class {
+    fill: url(#Container_dg);
+    stroke: rgba(8, 2, 23, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Container_dg {
+    overflow: visible;
+    position: absolute;
+    width: 1196.39px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Randy_Gray_-_99_pts_Class {
+    left: 233.931px;
+    top: 28.01px;
+    position: absolute;
+    overflow: visible;
+    width: 652px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ID2_Class {
+    left: 121.93px;
+    top: 29px;
+    position: absolute;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.First_Position_Class {
+    position: absolute;
+    width: 1208.581px;
+    height: 104px;
+    left: 356.069px;
+    top: 2827px;
+    overflow: visible;
+}
+
+.Gold_Class {
+    fill: rgba(255, 223, 0, 1);
+    stroke: rgba(8, 2, 23, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Gold {
+    overflow: visible;
+    position: absolute;
+    width: 1196.581px;
+    height: 90px;
+    left: 12px;
+    top: 14px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Container_dm_Class {
+    fill: url(#Container_dm);
+    stroke: rgba(8, 2, 23, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Container_dm {
+    overflow: visible;
+    position: absolute;
+    width: 1196.39px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Michelle_Ross_-_100_pts_Class {
+    left: 233.931px;
+    top: 26.906px;
+    position: absolute;
+    overflow: visible;
+    width: 789px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ID1_Class {
+    left: 121.931px;
+    top: 29px;
+    position: absolute;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.This_Weeks_top_3_Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 470px;
+    top: 2748px;
+    position: absolute;
+    overflow: visible;
+    width: 667px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(238, 236, 236, 1);
+}
+
+.Collection_Background_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 1460px;
+    overflow: visible;
+}
+
+.Collection_Tint_Class {
+    fill: rgba(8, 2, 23, 0.6);
+}
+
+.Collection_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 1640px;
+}
+
+.More_Games_Button_Class {
+    position: absolute;
+    width: 200px;
+    height: 72.727px;
+    left: 860px;
+    top: 2340px;
+    overflow: visible;
+}
+
+.Button_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 52.727px;
+    left: 0px;
+    top: 0px;
+}
+
+.MORE_GAMES_Class {
+    left: 60px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 148px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Play_Button_Class {
+    position: absolute;
+    width: 461px;
+    height: 68px;
+    left: 730px;
+    top: 2451px;
+    overflow: visible;
+    display: none;
+}
+
+.Button_dw_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button_dw {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 479px;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.PLAY_Now_Class {
+    left: 113px;
+    top: 21px;
+    position: absolute;
+    overflow: visible;
+    width: 236px;
+    white-space: nowrap;
+    line-height: 48px;
+    margin-top: -9px;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Gauntlet_Console_Class {
+    position: absolute;
+    width: 700.8px;
+    height: 400px;
+    left: 1077.2px;
+    top: 1969px;
+    overflow: visible;
+}
+
+.Tetris_Console_Class {
+    position: absolute;
+    width: 700.8px;
+    height: 400px;
+    left: 134px;
+    top: 1969px;
+    overflow: visible;
+}
+
+.Pacman_Console_Class {
+    position: absolute;
+    width: 700.8px;
+    height: 400px;
+    left: 860px;
+    top: 1969px;
+    overflow: visible;
+}
+
+.Breakout_Console_Class {
+    position: absolute;
+    width: 700.8px;
+    height: 400px;
+    left: 374px;
+    top: 1969px;
+    overflow: visible;
+}
+
+.Mario_Console_Class {
+    position: absolute;
+    width: 700.8px;
+    height: 400px;
+    left: 610px;
+    top: 1969px;
+    overflow: visible;
+}
+
+.About_Background_Class {
+    position: absolute;
+    width: 1921px;
+    height: 980px;
+    left: 0px;
+    top: 823px;
+    overflow: visible;
+}
+
+.About_Black_Tint_Class {
+    fill: rgba(8, 2, 23, 0.6);
+}
+
+.About_Black_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 899px;
+}
+
+.Text_Box_Class {
+    position: absolute;
+    width: 1069px;
+    height: 548px;
+    left: 589px;
+    top: 1022px;
+    overflow: visible;
+}
+
+.Dialogue_Box_Class {
+    position: absolute;
+    width: 1069px;
+    height: 548px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Lorem_ipsum_dolor_sit_amet_con_Class {
+    left: 106px;
+    top: 141px;
+    position: absolute;
+    overflow: hidden;
+    width: 942px;
+    height: 467px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(246, 3, 159, 0.702);
+}
+
+.About_Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+    left: 478px;
+    top: 62px;
+    position: absolute;
+    overflow: visible;
+    width: 197px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(246, 3, 159, 0.702);
+}
+
+.Home_Black_Tint_Class {
+    fill: rgba(8, 2, 23, 0.6);
+    height: 906px;
+}
+
+.Home_Black_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: -73px;
+}
+
+.Down_Arrow_Class {
+    fill: rgba(246, 3, 159, 1);
+    display: none;
+}
+
+.Down_Arrow {
+    overflow: visible;
+    position: absolute;
+    width: 51.672px;
+    height: 83.679px;
+    transform: matrix(1, 0, 0, 1, 934.0035, 780.2172) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+
+.Respawn_20_Class {
+    position: absolute;
+    width: 1207px;
+    height: 103px;
+    left: 357px;
+    top: 446px;
+    overflow: visible;
+}
+
+.ID0_Class {
+    left: 1093px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 115px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 116px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Respawn_2_Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 140px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1540px;
+    height: 103px;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 116px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.The_Tech_Club_Presents_Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 476px;
+    top: 351px;
+    position: absolute;
+    overflow: visible;
+    width: 970px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Burger_Menu_Class {
+    position: fixed;
+    width: 62.5px;
+    height: 40px;
+    left: 1643.5px;
+    top: 50px;
+    overflow: visible;
+}
+
+.Line_3_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_3 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 0px;
+    top: 40px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line_2_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_2 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 0px;
+    top: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line_1_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_1 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 66px;
+    height: 26px;
+    left: 22.5px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Join_Button_Class {
+    position: absolute;
+    width: 200px;
+    height: 72.727px;
+    left: 1354.5px;
+    top: 44px;
+    overflow: visible;
+}
+
+.Button_el_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button_el {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 52.727px;
+    left: 0px;
+    top: 0px;
+}
+
+.JOIN_Class {
+    left: 91.5px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 79px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.LOGOUT_Class {
+    left: 75.5px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 79px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Login_Button_Class {
+    position: absolute;
+    width: 200px;
+    height: 72.727px;
+    left: 1050.5px;
+    top: 44px;
+    overflow: visible;
+}
+
+.Button_eo_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button_eo {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 52.727px;
+    left: 0px;
+    top: 0px;
+}
+
+.LOGIN_Class {
+    left: 85px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(250, 3, 164);
+}
+
+.Respawn_Logo_Class {
+    position: absolute;
+    width: 476px;
+    height: 138px;
+    left: 64px;
+    top: 3px;
+    overflow: visible;
+}
+
+#video {
+    position: relative;
+    top: -698px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.carosel {
+    position: relative;
+    top: 1800px;
+    left: 210px;
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    .Homepage__E_Class {
+        display: none;
+    }
+    .navhamburger {
+        display: none;
+    }
+    body {
+        background-image: url("/Images/Backgrounds/Tab_Error.png");
+        background-position: center;
+        width: 1024px;
+        height: 1366px;
+    }
+    .cursor {
+        display: none;
+    }
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+    .Homepage__E_Class {
+        display: none;
+    }
+    .navhamburger {
+        display: none;
+    }
+    body {
+        background-image: url("/Images/Backgrounds/Tab_Error.png");
+        background-position: 0px;
+        width: 1024px;
+        height: 1366px;
+    }
+    .cursor {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .Homepage__E_Class {
+        display: none;
+    }
+    .navhamburger {
+        display: none;
+    }
+    body {
+        background-image: url("/Images/Backgrounds/Phone_Error.png");
+        background-position: center;
+        width: 420px;
+        height: 900px;
+    }
+    .cursor {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        width: 420px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    body {
+        width: 410px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        width: 400px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        width: 390px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    body {
+        width: 380px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    body {
+        width: 370px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        width: 360px;
+        height: 900px;
+    }
+}

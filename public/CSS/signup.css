@@ -1,0 +1,1036 @@
+.mediaViewInfo {
+    --web-view-name: Sign Up – 1;
+    --web-view-id: Sign_Up__1;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Sign_Up__1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #f6039f;
+}
+
+.Sign_Up__1_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1600px;
+    overflow: hidden;
+    --web-view-name: Sign Up – 1;
+    --web-view-id: Sign_Up__1;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+.Signup_Background_Class {
+    position: absolute;
+    width: 2300px;
+    height: 1294px;
+    left: -202px;
+    top: -159px;
+    overflow: visible;
+}
+
+.Black_Tint_Class {
+    fill: rgba(8, 2, 23, 0.6);
+}
+
+.Black_Tint {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 1602px;
+    left: 0px;
+    top: -2px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Footer_Class {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 900px;
+    overflow: visible;
+}
+
+.Footer_Background_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Footer_Background {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 1938px;
+    height: 718px;
+    left: 0px;
+    top: 0px;
+}
+
+.Copyright_Icon_Class {
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    left: 863px;
+    top: 577.549px;
+    overflow: visible;
+}
+
+.C_Circle_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.C_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 14px;
+    height: 13.499px;
+    left: 0px;
+    top: 0.964px;
+}
+
+.C_Class {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 9px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Copyright_Tech_Club_2020_Class {
+    left: 880px;
+    top: 575.619px;
+    position: absolute;
+    overflow: visible;
+    width: 167px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 13px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Terms__Conditions_Class {
+    left: 1414px;
+    top: 500.713px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Privacy_Policy_Class {
+    left: 1449px;
+    top: 467.012px;
+    position: absolute;
+    overflow: visible;
+    width: 121px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Legal_Class {
+    left: 1476.5px;
+    top: 412.858px;
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.techclubnmimsgmailcom_Class {
+    left: 853px;
+    top: 500.713px;
+    position: absolute;
+    overflow: visible;
+    width: 255px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Mail_Icon_Class {
+    fill: rgba(152, 150, 150, 1);
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Mail_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 31.18px;
+    height: 23.635px;
+    left: 813px;
+    top: 502.196px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.ID9987733926_Class {
+    left: 924px;
+    top: 467.012px;
+    position: absolute;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Phone_Icon_Class {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 893px;
+    top: 470.079px;
+    overflow: visible;
+}
+
+.Path_1021_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1021 {
+    overflow: visible;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Contact_Us_Class {
+    left: 891px;
+    top: 412.858px;
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+    left: 217px;
+    top: 471.86px;
+    position: absolute;
+    overflow: visible;
+    width: 354px;
+    height: 59px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Location_Icon_Class {
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    left: 210px;
+    top: 474.844px;
+    overflow: visible;
+}
+
+.Path_1023_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1023 {
+    overflow: visible;
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Address_Class {
+    left: 344px;
+    top: 412.858px;
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Linkedin_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.805px;
+    left: 1030px;
+    top: 263.223px;
+    overflow: visible;
+}
+
+.Linkedin_Circle_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Linkedin_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.805px;
+    left: 0px;
+    top: 0px;
+}
+
+.linkedin_Class {
+    position: absolute;
+    width: 19.31px;
+    height: 18.257px;
+    left: 25.747px;
+    top: 26.553px;
+    overflow: visible;
+}
+
+.Path_213_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_213 {
+    overflow: visible;
+    position: absolute;
+    width: 12.48px;
+    height: 13.216px;
+    left: 6.83px;
+    top: 5.041px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_214_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_214 {
+    overflow: visible;
+    position: absolute;
+    width: 4.004px;
+    height: 12.893px;
+    left: 0.319px;
+    top: 5.364px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_215_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_215 {
+    overflow: visible;
+    position: absolute;
+    width: 4.638px;
+    height: 4.659px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Insta_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.805px;
+    left: 925px;
+    top: 263.223px;
+    overflow: visible;
+}
+
+.Instagram_Circle_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Instagram_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.805px;
+    left: 0px;
+    top: 0px;
+}
+
+.Camera_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Camera {
+    overflow: visible;
+    position: absolute;
+    width: 19.311px;
+    height: 19.314px;
+    left: 25.746px;
+    top: 25.747px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Facebook_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.921px;
+    left: 820px;
+    top: 263.223px;
+    overflow: visible;
+}
+
+.Facebook_Ellipse_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Facebook_Ellipse {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.921px;
+    left: 0px;
+    top: 0px;
+}
+
+.f_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.f {
+    overflow: visible;
+    position: absolute;
+    width: 10.494px;
+    height: 20.095px;
+    left: 29.738px;
+    top: 25.336px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Developed_By_Tech_Club_Class {
+    left: 810px;
+    top: 207.873px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Tech_Club_Logo_Class {
+    position: absolute;
+    width: 163px;
+    height: 150px;
+    left: 879px;
+    top: 50px;
+    overflow: visible;
+}
+
+.Tech_Club_Logo_Glow {
+    position: absolute;
+    width: 163px;
+    height: 150px;
+    left: 879px;
+    top: 50px;
+    overflow: visible;
+    filter: blur(50px);
+}
+
+.Container_Class {
+    opacity: 0.8;
+    fill: rgba(8, 2, 23, 1);
+}
+
+.Container {
+    position: absolute;
+    overflow: visible;
+    width: 725px;
+    height: 660px;
+    left: 586px;
+    top: 184.473px;
+}
+
+.Already_Have_An_Account_Login__Class {
+    left: 770px;
+    top: 765.473px;
+    position: absolute;
+    overflow: visible;
+    width: 381px;
+    white-space: nowrap;
+    line-height: 48px;
+    margin-top: -14px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Continue_Button_Class {
+    position: absolute;
+    width: 619px;
+    height: 82px;
+    left: 651px;
+    top: 654.473px;
+    overflow: visible;
+}
+
+.Button_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button {
+    position: absolute;
+    overflow: visible;
+    width: 619px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+}
+
+.CONTINUE_Class {
+    left: 249px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    line-height: 27px;
+    margin-top: -2.5px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Repeat_Password_Input_Class {
+    position: absolute;
+    width: 619px;
+    height: 64px;
+    left: 651px;
+    top: 541.473px;
+    overflow: visible;
+}
+
+.Input_Space_Class {
+    fill: rgba(246, 3, 159, 1);
+}
+
+.Input_Space {
+    position: absolute;
+    overflow: visible;
+    width: 619px;
+    height: 1px;
+    left: 0px;
+    top: 63px;
+}
+
+._Class {
+    left: 68px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Mail_Icon_c_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Mail_Icon_c {
+    overflow: visible;
+    position: absolute;
+    width: 29.18px;
+    height: 31.197px;
+    left: 1.12px;
+    top: 0.02px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Passowrd_Input_Class {
+    position: absolute;
+    width: 619px;
+    height: 64px;
+    left: 650px;
+    top: 456.473px;
+    overflow: visible;
+}
+
+.Input_Space_db_Class {
+    fill: rgba(246, 3, 159, 1);
+}
+
+.Input_Space_db {
+    position: absolute;
+    overflow: visible;
+    width: 619px;
+    height: 1px;
+    left: 0px;
+    top: 63px;
+}
+
+._dc_Class {
+    left: 68px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Lock_Icon_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Lock_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 29.18px;
+    height: 31.197px;
+    left: 1.12px;
+    top: 0.02px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Mail_Input_Class {
+    position: absolute;
+    width: 619px;
+    height: 61px;
+    left: 651px;
+    top: 366.473px;
+    overflow: visible;
+}
+
+.Input_Space_df_Class {
+    fill: rgba(246, 3, 159, 1);
+}
+
+.Input_Space_df {
+    position: absolute;
+    overflow: visible;
+    width: 619px;
+    height: 1px;
+    left: 0px;
+    top: 60px;
+}
+
+.Placeholder_Class {
+    left: 68.537px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Mail_Icon_dh_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Mail_Icon_dh {
+    overflow: visible;
+    position: absolute;
+    width: 31.18px;
+    height: 23.635px;
+    left: 0px;
+    top: 3px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Username_Input_Class {
+    position: absolute;
+    width: 616.88px;
+    height: 66.204px;
+    left: 652px;
+    top: 268.424px;
+    overflow: visible;
+}
+
+.Input_Space_dj_Class {
+    fill: rgba(246, 3, 159, 1);
+}
+
+.Input_Space_dj {
+    position: absolute;
+    overflow: visible;
+    width: 619px;
+    height: 1px;
+    left: 0px;
+    top: 65.076px;
+}
+
+.Placeholder_dk_Class {
+    left: 67px;
+    top: 1.049px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Profile_Icon_Class {
+    position: absolute;
+    width: 30.18px;
+    height: 30.183px;
+    left: 0.119px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Icon_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Icon {
+    overflow: visible;
+    position: absolute;
+    width: 31.18px;
+    height: 31.183px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Signup_Login_Bar_Class {
+    fill: rgba(83, 82, 82, 1);
+}
+
+.Signup_Login_Bar {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 853.057px;
+    height: 129.965px;
+    left: 542.472px;
+    top: 116px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Highlighter_dp_Class {
+    fill: url(#Highlighter_dp);
+}
+
+.Highlighter_dp {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 447.007px;
+    height: 130.955px;
+    left: 948.5px;
+    top: 115.473px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Sign_Up_Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 1073.528px;
+    top: 159.473px;
+    position: absolute;
+    overflow: visible;
+    width: 207px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(238, 236, 236, 1);
+}
+
+.Log_In_Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 654.472px;
+    top: 157.473px;
+    position: absolute;
+    overflow: visible;
+    width: 177px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(238, 236, 236, 1);
+}
+
+.Log_In_Class:hover {
+    color: rgba(246, 3, 159, 1);
+}
+
+.Burger_Class {
+    position: fixed;
+    width: 62.5px;
+    height: 40px;
+    left: 1643.5px;
+    top: 50px;
+    overflow: visible;
+}
+
+.Line_7_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_7 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 0px;
+    top: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line_6_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_6 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 66px;
+    height: 26px;
+    left: 22.5px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line_8_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_8 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 0px;
+    top: 40px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Respawn_Logo_Class {
+    position: absolute;
+    width: 476px;
+    height: 138px;
+    left: 64px;
+    top: 3px;
+    overflow: visible;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    font-family: Poppins;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgba(238, 236, 236, 1);
+}
+
+input[type="text"]:focus {
+    background-color: none;
+}
+
+button {
+    width: 500px;
+    position: relative;
+    left: 50px;
+    background-color: transparent;
+    color: #f0edee;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgba(246, 3, 159, 1), -4px -4px 10px rgb(0, 0, 0);
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    box-shadow: -2px -2px 5px rgb(0, 0, 0), 2px 2px 5px rgba(246, 3, 159, 1);
+}

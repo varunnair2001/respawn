@@ -1,0 +1,769 @@
+.mediaViewInfo {
+    --web-view-name: Terms & Conditions – E;
+    --web-view-id: Terms__Conditions__E;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Terms__Conditions__E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #f6039f;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.block h2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10vw;
+    color: white;
+    font-weight: 400;
+}
+
+.img-parallax {
+    width: 100vmax;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    pointer-events: none;
+}
+
+.Terms__Conditions__E_Class {
+    position: absolute;
+    width: 1920px;
+    height: 10022px;
+    background: linear-gradient( 180deg, rgba(206, 5, 98, 1) 0%, rgba(235, 7, 238, 1) 46.42%, rgba(164, 8, 213, 1) 100%);
+    overflow: hidden;
+    --web-view-name: Terms & Conditions – E;
+    --web-view-id: Terms__Conditions__E;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+.Legal_Background_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Black_Tint_Class {
+    fill: rgba(8, 2, 23, 0.502);
+}
+
+.Black_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1928px;
+    height: 9323px;
+    left: 0px;
+    top: -2px;
+}
+
+.Footer_Class {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 9321px;
+    overflow: visible;
+}
+
+.Footer_Background_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Footer_Background {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 1938px;
+    height: 718px;
+    left: 0px;
+    top: 0px;
+}
+
+.Copyright_Icon_Class {
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    left: 863px;
+    top: 577.549px;
+    overflow: visible;
+}
+
+.C_Circle_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.C_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 14px;
+    height: 13.499px;
+    left: 0px;
+    top: 0.964px;
+}
+
+.C_Class {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 9px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Copyright_Tech_Club_2020_Class {
+    left: 880px;
+    top: 575.619px;
+    position: absolute;
+    overflow: visible;
+    width: 167px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 13px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Terms__Conditions_Class {
+    left: 1414px;
+    top: 500.713px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Privacy_Policy_Class {
+    left: 1449px;
+    top: 467.012px;
+    position: absolute;
+    overflow: visible;
+    width: 121px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Legal_Class {
+    left: 1476.5px;
+    top: 412.858px;
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.techclubnmimsgmailcom_Class {
+    left: 853px;
+    top: 500.713px;
+    position: absolute;
+    overflow: visible;
+    width: 255px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Mail_Icon_Class {
+    fill: rgba(152, 150, 150, 1);
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Mail_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 31.18px;
+    height: 23.635px;
+    left: 813px;
+    top: 502.196px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.ID9987733926_Class {
+    left: 924px;
+    top: 467.012px;
+    position: absolute;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Phone_Icon_Class {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 893px;
+    top: 470.079px;
+    overflow: visible;
+}
+
+.Path_1021_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1021 {
+    overflow: visible;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Contact_Us_Class {
+    left: 891px;
+    top: 412.858px;
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+    left: 217px;
+    top: 471.86px;
+    position: absolute;
+    overflow: visible;
+    width: 354px;
+    height: 59px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Location_Icon_Class {
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    left: 210px;
+    top: 474.844px;
+    overflow: visible;
+}
+
+.Path_1023_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1023 {
+    overflow: visible;
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Address_Class {
+    left: 344px;
+    top: 412.858px;
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Linkedin_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.805px;
+    left: 1030px;
+    top: 263.223px;
+    overflow: visible;
+}
+
+.Linkedin_Circle_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Linkedin_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.805px;
+    left: 0px;
+    top: 0px;
+}
+
+.linkedin_Class {
+    position: absolute;
+    width: 19.31px;
+    height: 18.257px;
+    left: 25.747px;
+    top: 26.553px;
+    overflow: visible;
+}
+
+.Path_213_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_213 {
+    overflow: visible;
+    position: absolute;
+    width: 12.48px;
+    height: 13.216px;
+    left: 6.83px;
+    top: 5.041px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_214_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_214 {
+    overflow: visible;
+    position: absolute;
+    width: 4.004px;
+    height: 12.893px;
+    left: 0.319px;
+    top: 5.364px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_215_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_215 {
+    overflow: visible;
+    position: absolute;
+    width: 4.638px;
+    height: 4.659px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Insta_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.805px;
+    left: 925px;
+    top: 263.223px;
+    overflow: visible;
+}
+
+.Instagram_Circle_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Instagram_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.805px;
+    left: 0px;
+    top: 0px;
+}
+
+.Camera_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Camera {
+    overflow: visible;
+    position: absolute;
+    width: 19.311px;
+    height: 19.314px;
+    left: 25.746px;
+    top: 25.747px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Facebook_Icon_Class {
+    position: absolute;
+    width: 70px;
+    height: 70.921px;
+    left: 820px;
+    top: 263.223px;
+    overflow: visible;
+}
+
+.Facebook_Ellipse_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Facebook_Ellipse {
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 70.921px;
+    left: 0px;
+    top: 0px;
+}
+
+.f_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.f {
+    overflow: visible;
+    position: absolute;
+    width: 10.494px;
+    height: 20.095px;
+    left: 29.738px;
+    top: 25.336px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Developed_By_Tech_Club_Class {
+    left: 810px;
+    top: 207.873px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Tech_Club_Logo_Class {
+    position: absolute;
+    width: 163px;
+    height: 150px;
+    left: 879px;
+    top: 50px;
+    overflow: visible;
+}
+
+.Container_Class {
+    opacity: 0.9;
+    fill: rgba(8, 2, 23, 1);
+}
+
+.Container {
+    position: absolute;
+    overflow: visible;
+    width: 1500px;
+    height: 9054px;
+    left: 210px;
+    top: 180px;
+}
+
+.These_Terms_are_a_legal_agreem_Class {
+    left: 274px;
+    top: 327px;
+    position: absolute;
+    overflow: visible;
+    width: 1373px;
+    height: 8864px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Terms__Conditions_c_Class {
+    left: 520px;
+    top: 232px;
+    position: absolute;
+    overflow: visible;
+    width: 881px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Burger_Class {
+    position: fixed;
+    width: 62.5px;
+    height: 40px;
+    left: 1643.5px;
+    top: 50px;
+    overflow: visible;
+}
+
+.Line_7_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_7 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 0px;
+    top: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line_6_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_6 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 66px;
+    height: 26px;
+    left: 22.5px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line_8_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_8 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 0px;
+    top: 40px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Join_Button_Class {
+    position: absolute;
+    width: 200px;
+    height: 52.727px;
+    left: 1374.5px;
+    top: 44px;
+    overflow: visible;
+}
+
+.Button_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 52.727px;
+    left: 0px;
+    top: 0px;
+}
+
+.JOIN_Class {
+    left: 61.5px;
+    top: 17px;
+    position: absolute;
+    overflow: visible;
+    width: 79px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Login_Button_Class {
+    position: absolute;
+    width: 200px;
+    height: 52.727px;
+    left: 1113.5px;
+    top: 44px;
+    overflow: visible;
+}
+
+.Button_dc_Class {
+    fill: transparent;
+    stroke: rgba(246, 3, 159, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button_dc {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 52.727px;
+    left: 0px;
+    top: 0px;
+}
+
+.LOGIN_Class {
+    left: 51.5px;
+    top: 17px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(246, 3, 159, 1);
+}
+
+.Respawn_Logo_Class {
+    position: absolute;
+    width: 476px;
+    height: 138px;
+    left: 64px;
+    top: 3px;
+    overflow: visible;
+}

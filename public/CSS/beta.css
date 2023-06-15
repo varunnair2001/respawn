@@ -1,0 +1,102 @@
+.mediaViewInfo {
+    --web-view-name: Beta Error;
+    --web-view-id: Beta_Error;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Beta_Error;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #f6039f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+    cursor: none;
+}
+
+.Beta_Error_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    --web-view-name: Beta Error;
+    --web-view-id: Beta_Error;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+.ID816_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1164px;
+    left: 0px;
+    top: -42px;
+    overflow: visible;
+}
+
+.ID816_b_Class {
+    fill: rgba(0, 0, 0, 0.522);
+}
+
+.ID816_b {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 1164px;
+    left: 0px;
+    top: -42px;
+}
+
+.Respawn_Logo_Class {
+    position: absolute;
+    width: 476px;
+    height: 138px;
+    left: 64px;
+    top: 3px;
+    overflow: visible;
+}
+
+.OOps_It_seems_this_part_of_the_Class {
+    left: 80px;
+    top: 391px;
+    position: absolute;
+    overflow: visible;
+    width: 762px;
+    height: 298px;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(246, 3, 159, 1);
+}
