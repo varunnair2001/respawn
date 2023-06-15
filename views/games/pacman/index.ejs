@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pacman</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="/Images/Logos/R-Respawn.png" rel="icon" />
+    <style type="text/css">
+        @font-face {
+            font-family: "BDCartoonShoutRegular";
+            src: url("/games/pacman/BD_Cartoon_Shout-webfont.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        #pacman {
+            height: 450px;
+            width: 342px;
+            margin: 20px auto;
+            position: relative;
+            top: 15%;
+        }
+        
+        #shim {
+            font-family: BDCartoonShoutRegular;
+            position: absolute;
+            visibility: hidden;
+        }
+        
+        h1 {
+            font-family: BDCartoonShoutRegular;
+            text-align: center;
+        }
+        
+        body {
+            width: 342px;
+            margin: 0px auto;
+            font-family: sans-serif;
+            background-image: url("/Images/Backgrounds/Pacman_Game_Background.png");
+            height: 500px;
+            /* You must set a specified height */
+            background-position-x: 0px;
+            background-position-y: -40px;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: 100%;
+            /* Resize the background image to cover the entire container */
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        img {
+            position: relative;
+            left: -600px;
+        }
+        
+        .list {
+            position: relative;
+            left: -570px;
+            top: -460px;
+            font-family: "Poppins", sans-serif;
+            color: #ffffff;
+            font-size: 25px;
+        }
+        @media screen and (max-width: 1920px) {
+            img{
+                left: -750px;
+            }
+            .list{
+                left: -755px;
+                top: -430px;
+                height: 460px;
+                width: 350px;
+                font-size: 22px;
+                overflow: auto;
+            }
+            p{
+            top: 13%;
+            left: 35%;
+            }
+        }
+        @media screen and (max-width: 1600px) {
+            img{
+                left: -600px;
+            }
+            .list{
+                left: -605px;
+                top: -470px;
+                height: 400px;
+                width: 300px;
+                font-size: 22px;
+                overflow: auto;
+            }
+            p{
+            top: 13%;
+            left: 35%;
+            }
+        }
+        @media screen and (max-width: 1536px) {
+            img{
+                left: -600px;
+            }
+            .list{
+                left: -580px;
+                top: -485px;
+                height: 400px;
+                width: 300px;
+                font-size: 22px;
+                overflow: auto;
+            }
+            p{
+            top: 13%;
+            left: 32%;
+            }
+        }
+        @media screen and (max-width: 1366px) {
+            img{
+                left: -480px;
+            }
+            .list{
+                left: -505px;
+                top: -480px;
+                height: 300px;
+                width: 280px;
+                font-size: 20px;
+                overflow: auto;
+            }
+            p{
+            top: 13%;
+            left: 35%;
+            }
+        }
+        @media screen and (max-width: 1280px) {
+            img{
+                left: -480px;
+            }
+            .list{
+                left: -480px;
+                top: -500px;
+                height: 300px;
+                width: 280px;
+                font-size: 20px;
+                overflow: auto;
+            }
+            p{
+            top: 12%;
+            left: 35%;
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            img{
+                left: -480px;
+            }
+            .list{
+                left: -420px;
+                top: -520px;
+                height: 300px;
+                width: 240px;
+                font-size: 18px;
+                overflow: auto;
+            }
+            p{
+            top: 12%;
+            left: 35%;
+            }
+        }
+    </style>
+    <link rel="shortcut icon" href="#" />
+</head>
+
+<body>
+    <a href="/">
+        <img src="/Images/Logos/Respawn_Logo.png" />
+    </a>
+    <p style="z-index: 100; position: absolute; color: #ffffff; font-size: 25px; font-weight: 700;">PLEASE PLAY THE GAMES ON FULL SCREEN!</p>
+    <div id="shim">shim for font face</div>
+
+    <h1></h1>
+
+    <div id="pacman"></div>
+    <div class="list">
+        <% output.forEach(function(data){ %>
+            <li>
+                <%= data.highscore %>
+                    <%= data.username %>
+            </li>
+            <% }) %>
+    </div>
+    <script src="/games/pacman/pacman.js"></script>
+    <script src="/games/pacman/modernizr-1.5.min.js"></script>
+
+    <script>
+        var el = document.getElementById("pacman");
+        var startDate = new Date();
+        globalThis.localStorage["startDate"] = Date.parse(startDate);
+
+        if (
+            Modernizr.canvas &&
+            Modernizr.localstorage &&
+            Modernizr.audio &&
+            (Modernizr.audio.ogg || Modernizr.audio.mp3)
+        ) {
+            window.setTimeout(function() {
+                PACMAN.init(el, "./");
+            }, 0);
+        } else {
+            el.innerHTML =
+                "Sorry, needs a decent browser<br /><small>" +
+                "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
+        }
+    </script>
+</body>
+
+</html>

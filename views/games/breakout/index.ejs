@@ -1,0 +1,213 @@
+<html>
+
+<head>
+    <title>Breakout</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0," user-scalable="no" />
+    <link href="/Images/Logos/R-Respawn.png" rel="icon" />
+    <link href="/games/breakout/breakout.css" media="screen, print" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="#" />
+    <style>
+        body {
+            background-image: url("/Images/Backgrounds/Breakout_Game_Background.png");
+            background-position-x: 0px;
+            background-position-y: 0px;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: 100%;
+            /* Resize the background image to cover the entire container */
+            overflow: hidden;
+        }
+        
+        .list {
+            position: relative;
+            left: 10px;
+            top: -540px;
+            font-family: "Poppins", sans-serif;
+            color: #ffffff;
+            font-size: 25px;
+        }
+        
+        .logo {
+            width: 350px;
+            height: auto;
+        }
+        
+        #breakout {
+            top: -50px;
+        }
+        @media screen and (max-width: 1920px) {
+            img {
+                left: -750px;
+            }
+            .list {
+                left: 10px;
+                top: -660px;
+                height: 470px;
+                width: 380px;
+                font-size: 25px;
+                overflow: auto;
+            }
+             p{
+            top: 6.5%;
+            left: 35%;
+            }
+        }
+        
+        @media screen and (max-width: 1600px) {
+            img {
+                left: -750px;
+            }
+            .list {
+                left: 10px;
+                top: -700px;
+                height: 400px;
+                width: 270px;
+                font-size: 20px;
+                overflow: auto;
+            }
+             p{
+            top: 92%; 
+            left: 35%;
+            }
+        }
+        
+        @media screen and (max-width: 1536px) {
+            img {
+                left: -750px;
+            }
+            .list {
+                left: 10px;
+                top: -540px;
+                height: 390px;
+                width: 300px;
+                font-size: 20px;
+                overflow: auto;
+            }
+        
+              p{
+              top: 9%;
+              left: 32%;
+            }
+        }
+        
+        @media screen and (max-width: 1366px) {
+            img {
+                left: -750px;
+            }
+            .list {
+                left: 10px;
+                top: -550px;
+                height: 330px;
+                width: 260px;
+                font-size: 20px;
+                overflow: auto;
+            }
+        
+             p{
+            top: 92%;
+            left: 35%;
+            }
+        }
+        
+        @media screen and (max-width: 1280px) {
+            img {
+                left: -750px;
+            }
+            .list {
+                left: 10px;
+                top: -575px;
+                height: 320px;
+                width: 210px;
+                font-size: 15px;
+                overflow: auto;
+            }
+             p{
+            top: 82%;
+            left: 35%;
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            img {
+                left: -750px;
+            }
+            .list {
+                position: relative;
+                left: 10px;
+                top: -575px;
+                height: 250px;
+                width: 180px;
+                font-size: 15px;
+                overflow: auto;
+            }
+             p{
+            top: 82%;
+            left: 35%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/">
+        <img class="logo" src="/Images/Logos/Respawn_Logo.png" />
+    </a>
+    <p style="z-index: 100; position: absolute; color: #ffffff; font-size: 25px; font-weight: 700;">PLEASE PLAY THE GAMES ON FULL SCREEN!</p>
+    <div id="breakout">
+        <canvas id="canvas">
+        <div class="unsupported">
+          Sorry, this example cannot be run because your browser does not
+          support the &lt;canvas&gt; element
+        </div>
+      </canvas>
+        <div id="levels">
+            <img type="module" id="next" class="disabled" src="/games/breakout/up.png" title="next level" />
+            <img id="prev" class="disabled" src="/games/breakout/down.png" title="previous level" />
+            <span id="label">level:</span><span id="level"></span>
+        </div>
+        <div id="controls">
+            <input id="sound" type="checkbox" />
+            <label for="sound">sound</label>
+        </div>
+        <div id="instructions" style="display: none;">
+            <div class="keyboard">
+                <b>space</b> to start<br />
+                <b>left/right</b> to move paddle<br />
+                <b>up/down</b> to change level
+            </div>
+            <div class="touch">
+                <b>touch here</b> to start<br />
+                <b>drag</b> paddle to move<br />
+            </div>
+        </div>
+    </div>
+    <div class="list">
+    	<% if (output){ %>
+        <% output.forEach(function(data){ %>
+            <li>
+                <%= data.highscore %>
+                    <%= data.username %>
+            </li>
+            <% }) %>
+    	<% } %>
+    </div>
+
+    <script src="/games/breakout/game.js"></script>
+    <script src="/games/breakout/breakout.js"></script>
+    <script src="/games/breakout/levels.js"></script>
+    <script>
+        Game.ready(function() {
+            var game = Game.start("canvas", Breakout);
+        });
+        window.onload = function() {
+            if (!window.location.hash) {
+                window.location = window.location + "#loaded";
+                window.location.reload();
+            }
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mario</title>
+    <link href="/games/mario/Content/style.css" rel="stylesheet" />
+    <link href="/Images/Logos/R-Respawn.png" rel="icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="#" />
+    <style>
+        body {
+            background-image: url("/Images/Backgrounds/Mario_Game_Background.png");
+            background-position-x: 0px;
+            background-position-y: 0px;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: 100%;
+            /* Resize the background image to cover the entire container */
+            overflow: hidden;
+        }
+        
+        .list {
+            position: relative;
+            left: 10px;
+            top: 80px;
+            font-family: "Poppins", sans-serif;
+            color: #ffffff;
+            font-size: 25px;
+            overflow-x: hidden;
+        }
+        
+        .logo {
+            width: 350px;
+            height: auto;
+        }
+        
+        @media screen and (max-width: 1920px) {
+            img {
+                left: -750px;
+            }
+            .list {
+                left: 10px;
+                top: 130px;
+                height: 460px;
+                width: 350px;
+                font-size: 25px;
+                overflow: auto;
+            }
+            p{
+            top: 12%;
+            left: 35%;
+            }
+        }
+        
+        @media screen and (max-width: 1600px) {
+            img {
+                left: -600px;
+            }
+            .list {
+                left: 10px;
+                top: 100px;
+                height: 400px;
+                width: 300px;
+                font-size: 25px;
+                overflow: auto;
+            }
+            p{
+            top: 12%;
+            left: 35%;
+            }
+        }
+        
+        @media screen and (max-width: 1536px) {
+            img {
+                left: -600px;
+            }
+            .list {
+                left: 10px;
+                top: 90px;
+                height: 380px;
+                width: 300px;
+                font-size: 25px;
+                overflow: auto;
+            }
+            p{
+            top: 6%;
+            left: 30%;
+            }
+        }
+        
+        @media screen and (max-width: 1366px) {
+            img {
+                left: -480px;
+            }
+            .list {
+                left: 10px;
+                top: 60px;
+                height: 350px;
+                width: 270px;
+                font-size: 22px;
+                overflow: auto;
+            }
+            p{
+            top: 12%;
+            left: 35%;
+            }
+        }
+        
+        @media screen and (max-width: 1280px) {
+            img {
+                left: -480px;
+            }
+            .list {
+                left: 0px;
+                top: 40px;
+                height: 300px;
+                width: 250px;
+                font-size: 20px;
+                overflow: auto;
+            }
+            p{
+            top: 12%;
+            left: 35%;
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            img {
+                left: -480px;
+            }
+            .list {
+                left: 0px;
+                top: 30px;
+                height: 300px;
+                width: 250px;
+                font-size: 20px;
+                overflow: auto;
+            }
+            p{
+            top: 12%;
+            left: 35%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/">
+        <img class="logo" src="/Images/Logos/Respawn_Logo.png" />
+    </a>
+    <p style="z-index: 100; position: absolute; color: #ffffff; font-size: 30px; font-weight: 700; font-family: Poppins, sans-serif;">PLEASE PLAY THE GAMES ON FULL SCREEN!</p>
+    <div>
+        <div id="game">
+            <div id="world"></div>
+            <div id="coinNumber" class="gauge">0</div>
+            <div id="coin" class="gaugeSprite"></div>
+            <div id="liveNumber" class="gauge">0</div>
+            <div id="live" class="gaugeSprite"></div>
+        </div>
+    </div>
+    <div class="list">
+        <% output.forEach(function(data){ %>
+            <li>
+                <%= data.highscore %>
+                    <%= data.username %>
+            </li>
+            <% }) %>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        window.jQuery ||
+            document.write('<script src="Scripts/jQuery.js"><\/script>');
+    </script>
+    <script src="/games/mario/Scripts/testlevels.js"></script>
+    <script src="/games/mario/Scripts/oop.js"></script>
+    <script src="/games/mario/Scripts/keys.js"></script>
+    <script src="/games/mario/Scripts/constants.js"></script>
+    <script src="/games/mario/Scripts/main.js"></script>
+    <script>
+        window.onload = function() {
+            if (!window.location.hash) {
+                window.location = window.location + "#loaded";
+                window.location.reload();
+            }
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/Images/Logos/R-Respawn.png" rel="icon" />
+    <title>Error</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="/CSS/beta.css" />
+    <script id="applicationScript" type="text/javascript" src="/JS/beta.js"></script>
+    <style>
+        .cursor {
+            width: 20px;
+            height: 20px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            animation: cursorAnim 0.5s infinite alternate;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 10;
+        }
+        
+        @keyframes cursorAnim {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(0.7);
+            }
+        }
+        
+        @keyframes cursorAnim2 {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(0.4);
+            }
+        }
+        
+        @keyframes cursorAnim3 {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(3);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+        
+        .expand {
+            animation: cursorAnim3 0.5s forwards;
+            border: 1px solid rgba(246, 3, 159, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Beta_Error" class="Beta_Error_Class">
+        <img class="ID816_Class" src="/Images/Backgrounds/ID816.png" srcset="/Images/Backgrounds/ID816.png 1x" />
+        <svg class="ID816_b">
+        <rect
+          class="ID816_b_Class"
+          rx="0"
+          ry="0"
+          x="0"
+          y="0"
+          width="1920"
+          height="1164"
+        ></rect>
+      </svg>
+        <a href="/">
+            <img class="Respawn_Logo_Class" src="/Images/Logos/Respawn_Logo.png" srcset="/Images/Logos/Respawn_Logo.png 1x" />
+        </a>
+        <div class="OOps_It_seems_this_part_of_the_Class">
+            <span>IT SEEMS THIS PART OF THE PLATFORM STILL ISN'T AVAILABLE FOR THE BETA TESTING.</span
+        >
+      </div>
+    </div>
+    <div class="cursor"></div>
+    <script>
+      const cursor = document.querySelector(".cursor");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.setAttribute(
+          "style",
+          "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
+        );
+      });
+
+      document.addEventListener("click", () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+          cursor.classList.remove("expand");
+        }, 500);
+      });
+    </script>
+  </body>
+</html>
