@@ -5,7 +5,6 @@ const express = require('express'),
       dotenv = require('dotenv'),
       path = require('path'),
       app = express();
-const PORT = process.env.PORT || 3030;
 
 dotenv.config({ path: './.env'});
 
@@ -42,10 +41,6 @@ app.use(function(req, res, next){
 app.use('/', require('./routes/pages'));
 app.use('/auth', require('./routes/auth'));
 
-//app.listen(2000, 'respawntwo.com', ()=>{
-//	console.log('server running.');
-//});
-
-app.listen(PORT, () => {
-  console.log(`server started on port ${PORT}`);
+app.listen(2000, 'respawntwo.com', ()=>{
+	console.log('server running.');
 });
